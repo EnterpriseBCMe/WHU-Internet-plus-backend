@@ -7,6 +7,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+
 @Data
 @Entity
 public class User {
@@ -14,8 +15,11 @@ public class User {
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Integer id;
 
-    private String name;
+    private String username;
+
+    private String password;
 
     private String email;
 
+    private
 }
